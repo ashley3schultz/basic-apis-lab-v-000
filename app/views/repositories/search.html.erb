@@ -6,6 +6,6 @@
 <% end %>
 <div>
   <% @results.each do |r| %>
-    <%= r.html_url %>
+    <%= r['owner']['html_url'] %>
   <% end %>
 </div>
